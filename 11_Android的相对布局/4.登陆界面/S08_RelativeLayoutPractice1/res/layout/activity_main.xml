@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    
+    <TextView
+        android:id="@+id/lableViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="登陆界面" />
+    <EditText 
+        android:id="@+id/usernameTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:hint="username"
+        android:layout_below="@id/lableViewId"/>
+    <EditText 
+        android:id="@+id/passwardTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/usernameTextId"
+        android:layout_alignRight="@id/usernameTextId"
+        android:hint="passward"
+        android:inputType="textPassword"
+        android:layout_below="@id/usernameTextId"/>
+    <Button 
+        android:id="@+id/cancelButtonId"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/passwardTextId"
+        android:text="取消"/>
+    <Button 
+        android:id="@+id/sureButtonId"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/passwardTextId"
+        android:layout_toLeftOf="@id/cancelButtonId"
+        android:text="确定"/>
+  
+
+</RelativeLayout>
