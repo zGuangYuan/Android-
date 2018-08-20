@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TimePicker 
+        android:id="@+id/timerPickerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button 
+        android:id="@+id/buttonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerPickerId"
+        android:layout_marginTop="20dp"
+        android:text="获取TimePicker时间"/>
+    <TextView 
+        android:id="@+id/textViewId1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonId"
+        android:textSize="20dp"
+        android:text="确定时间:"/>
+    <TextView 
+        android:id="@+id/textViewId2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewId1"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="变化时间:"/>
+
+</RelativeLayout>

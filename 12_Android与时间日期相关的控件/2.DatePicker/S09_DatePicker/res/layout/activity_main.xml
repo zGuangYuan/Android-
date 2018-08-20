@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  
+
+   <DatePicker 
+       android:id="@+id/datePickerId"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+   <Button 
+       android:id="@+id/buttonId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/datePickerId"
+       android:text="获取DatePicker的值"/>
+   <TextView 
+       android:id="@+id/TextViewId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/buttonId"
+       android:layout_marginTop="20dp"
+       android:text="当前时间："/>
+
+</RelativeLayout>
