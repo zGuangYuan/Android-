@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ProgressBar 
+	    android:id="@+id/ProgressBarId5"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleSmall"/>
+    <ProgressBar 
+	    android:id="@+id/ProgressBarId1"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleLarge"/>
+    <ProgressBar 
+	    android:id="@+id/ProgressBarId2"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleInverse"/>
+    <ProgressBar 
+	    android:id="@+id/ProgressBarId3"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleSmallInverse"/>
+    <ProgressBar 
+	    android:id="@+id/ProgressBarId4"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleLargeInverse"/>
+    
+
+</LinearLayout>
