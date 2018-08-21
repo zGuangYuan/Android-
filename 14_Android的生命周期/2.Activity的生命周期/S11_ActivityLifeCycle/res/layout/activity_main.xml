@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TextView 
+        android:id="@+id/firstTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#00ff00"
+        android:text="这是默认的Activity"/>
+   <Button 
+       android:id="@+id/buttonId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="启动SecondActivity"
+       android:layout_below="@id/firstTextViewId"
+       android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
